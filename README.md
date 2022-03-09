@@ -16,7 +16,7 @@ The target class, fetal health, is very unbalanced. About 78 percent of the feta
 ## Modeling
 KNN, Logistic Regression, Decision Tree, and Random Forest
 
-The grid search random forest produced the overall best model. It has the highest recall and precision score. The most important features where abnormal_short_term_variatability and the histogram mean, min, width and mode. Just like our random forest model short term varitability of the FHR is a key feature in classifying fetal health.
+The grid search random forest produced the overall best model. It has the highest recall and precision score. The most important features where abnormal_short_term_variatability and the histogram mean, min, width and mode. 
 
 Recall: 0.97
 F1 Score: 0.98
