@@ -22,4 +22,4 @@ Recall: 0.97
 F1 Score: 0.98
 Precision: 0.98
 
-![image](https://user-images.githubusercontent.com/20906514/157558430-1f8522f8-3c48-4ee8-b416-da9054a8531b.png)
+![image](https://user-images.githubusercontent.com/20906514/157558430-1f8522f8-3c48-4ee8-b416-da9054a8531b.png) 
