@@ -13,13 +13,17 @@ I used a Cardiotocography exam dataset found on Kaggle from The Journal of Mater
 The target class, fetal health, is very unbalanced. About 78 percent of the fetal health outcomes observed in this dataset are Normal. The class with the second-highest frequency is the Suspect fetal health which accounts for about 14 percent and the lowest frequency is Pathological fetal health which accounts for about 8 percent. The dataset already had the target values encoded in ordinal order: Normal was 1, Suspect was 2, Pathological was 3. Ordinal encoding converts each label into integer values and the encoded data represents the sequence of labels. In this scenario, Normal indicates that the fetus is healthy so low concern, Suspect indicates the fetus should be monitored so medium concern, and Pathological indicates problematic state so high concern. Most importantly, the model could become more inclined towards learning and predicting the Normal class than the Distressed class.
 
 
-## Modeling
+## Results
 KNN, Logistic Regression, Decision Tree, and Random Forest
 
-The grid search random forest produced the overall best model. It has the highest recall and precision score. The most important features where abnormal_short_term_variatability, accelerationns,and mean_stv.
-
+The grid search random forest produced the overall best model. It has the highest recall and precision score.
 Recall: 0.97
 F1 Score: 0.98
 Precision: 0.98
+
+The most important features where abnormal_short_term_variatability, accelerationns,and mean_stv. We can infer from this that extended rapid extreme changes in fetal heart rate are detrimental to fetal health.
+With this model, we can greatly reduce FP and FN so the need for uncessary surgery is avoided and urgent care is provided when needed.
+
+
 
 ![image](https://user-images.githubusercontent.com/20906514/157558430-1f8522f8-3c48-4ee8-b416-da9054a8531b.png) 
